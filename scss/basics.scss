@@ -1,0 +1,306 @@
+
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+
+.absoluto{
+  position: absolute;
+}
+
+.relativo{
+  position: relative;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.white{
+  color: white;
+}
+
+.boldy{
+  font-weight: bold;
+}
+
+
+.inline-blocky{
+  display: inline-block;
+}
+
+.blocky{
+  display: block;
+}
+
+.valign-top{
+  vertical-align: top;
+}
+
+
+.line-height-norml{
+  line-height: normal;
+}
+
+.column.alpha {
+  padding-left: 0;
+}
+
+.column.omega {
+  padding-right: 0;
+}
+
+
+.fully{
+  width: 100%;
+}
+
+
+.ma0{
+  margin: 0;
+}
+
+.pa0{
+  padding: 0;
+}
+
+.underliny{
+  text-decoration: underline;
+}
+
+
+/*font sizes*/
+
+
+.size-0-5{font-size: .5rem;}
+.size-0-6{font-size: .6rem;}
+.size-0-7{font-size: .7rem;}
+.size-0-8{font-size: .8rem;}
+.size-0-9{font-size: .9rem;}
+.size-1-0{font-size: 1rem;}
+.size-1-1{font-size: 1.1rem;}
+.size-1-2{font-size: 1.2rem;}
+.size-1-3{font-size: 1.3rem;}
+.size-1-4{font-size: 1.4rem;}
+.size-1-5{font-size: 1.5rem;}
+.size-1-6{font-size: 1.6rem;}
+.size-1-7{font-size: 1.7rem;}
+.size-1-8{font-size: 1.8rem;}
+.size-1-9{font-size: 1.9rem;}
+.size-2-0{font-size: 2rem;}
+.size-2-1{font-size: 2.1rem;}
+.size-2-2{font-size: 2.2rem;}
+.size-2-3{font-size: 2.3rem;}
+.size-2-4{font-size: 2.4rem;}
+.size-2-5{font-size: 2.5rem;}
+.size-2-6{font-size: 2.6rem;}
+.size-2-7{font-size: 2.7rem;}
+.size-2-8{font-size: 2.8rem;}
+.size-2-9{font-size: 2.9rem;}
+.size-3-0{font-size: 3rem;}
+.size-3-1{font-size: 3.1rem;}
+.size-3-2{font-size: 3.2rem;}
+.size-3-3{font-size: 3.3rem;}
+.size-3-4{font-size: 3.4rem;}
+.size-3-5{font-size: 3.5rem;}
+.size-3-6{font-size: 3.6rem;}
+.size-3-7{font-size: 3.7rem;}
+.size-3-8{font-size: 3.8rem;}
+.size-3-9{font-size: 3.9rem;}
+.size-4-0{font-size: 4rem;}
+
+
+
+
+
+
+
+
+/*
+margins and padding
+*/
+
+
+.mato0{margin-top: 0;}
+.mato5{margin-top: 5px;}
+.mato10{margin-top: 10px;}
+.mato15{margin-top: 15px;}
+.mato20{margin-top: 20px;}
+.mato30{margin-top: 30px;}
+.mato40{margin-top: 40px;}
+.mato50{margin-top: 50px;}
+.mato60{margin-top: 60px;}
+.mato70{margin-top: 70px;}
+.mato80{margin-top: 80px;}
+.mato90{margin-top: 90px;}
+.mato100{margin-top: 100px;}
+.mato110{margin-top: 110px;}
+.mato120{margin-top: 120px;}
+.mato130{margin-top: 130px;}
+.mato140{margin-top: 140px;}
+.mato150{margin-top: 150px;}
+.mato160{margin-top: 160px;}
+.mato170{margin-top: 170px;}
+.mato180{margin-top: 180px;}
+.mato190{margin-top: 190px;}
+.mato200{margin-top: 200px;}
+
+.mari0{margin-right: 0;}
+.mari5{margin-right: 5px;}
+.mari10{margin-right: 10px;}
+.mari20{margin-right: 20px;}
+.mari30{margin-right: 30px;}
+.mari40{margin-right: 40px;}
+.mari50{margin-right: 50px;}
+.mari60{margin-right: 60px;}
+.mari70{margin-right: 70px;}
+.mari80{margin-right: 80px;}
+.mari90{margin-right: 90px;}
+.mari100{margin-right: 100px;}
+
+.mabo0{margin-bottom: 0;}
+.mabo5{margin-bottom: 5px;}
+.mabo10{margin-bottom: 10px;}
+.mabo20{margin-bottom: 20px;}
+.mabo30{margin-bottom: 30px;}
+.mabo40{margin-bottom: 40px;}
+.mabo50{margin-bottom: 50px;}
+.mabo60{margin-bottom: 60px;}
+.mabo70{margin-bottom: 70px;}
+.mabo80{margin-bottom: 80px;}
+.mabo90{margin-bottom: 90px;}
+.mabo100{margin-bottom: 100px;}
+
+.male0{margin-left: 0;}
+.male5{margin-left: 5px;}
+.male10{margin-left: 10px;}
+.male20{margin-left: 20px;}
+.male30{margin-left: 30px;}
+.male40{margin-left: 40px;}
+.male50{margin-left: 50px;}
+.male60{margin-left: 60px;}
+.male70{margin-left: 70px;}
+.male80{margin-left: 80px;}
+.male90{margin-left: 90px;}
+.male100{margin-left: 100px;}
+
+
+
+.pato0{padding-top: 0;}
+.pato5{padding-top: 5px;}
+.pato10{padding-top: 10px;}
+.pato15{padding-top: 15px;}
+.pato20{padding-top: 20px;}
+.pato30{padding-top: 30px;}
+.pato40{padding-top: 40px;}
+.pato50{padding-top: 50px;}
+.pato60{padding-top: 60px;}
+.pato70{padding-top: 70px;}
+.pato80{padding-top: 80px;}
+.pato90{padding-top: 90px;}
+.pato100{padding-top: 100px;}
+
+.pari0{padding-right: 0;}
+.pari5{padding-right: 5px;}
+.pari10{padding-right: 10px;}
+.pari20{padding-right: 20px;}
+.pari30{padding-right: 30px;}
+.pari40{padding-right: 40px;}
+.pari50{padding-right: 50px;}
+.pari60{padding-right: 60px;}
+.pari70{padding-right: 70px;}
+.pari80{padding-right: 80px;}
+.pari90{padding-right: 90px;}
+.pari100{padding-right: 100px;}
+
+.pabo0{padding-bottom: 0;}
+.pabo5{padding-bottom: 5px;}
+.pabo10{padding-bottom: 10px;}
+.pabo20{padding-bottom: 20px;}
+.pabo30{padding-bottom: 30px;}
+.pabo40{padding-bottom: 40px;}
+.pabo50{padding-bottom: 50px;}
+.pabo60{padding-bottom: 60px;}
+.pabo70{padding-bottom: 70px;}
+.pabo80{padding-bottom: 80px;}
+.pabo90{padding-bottom: 90px;}
+.pabo100{padding-bottom: 100px;}
+
+.pale0{padding-left: 0;}
+.pale5{padding-left: 5px;}
+.pale10{padding-left: 10px;}
+.pale20{padding-left: 20px;}
+.pale30{padding-left: 30px;}
+.pale40{padding-left: 40px;}
+.pale50{padding-left: 50px;}
+.pale60{padding-left: 60px;}
+.pale70{padding-left: 70px;}
+.pale80{padding-left: 80px;}
+.pale90{padding-left: 90px;}
+.pale100{padding-left: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+$iphone: "(min-width: 300px) and (max-width: 599px)";
+$mini-tablet: "(min-width: 600px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1024px)";
+$desktop: "(min-width: 1025px)";
+
+
+$iphone-width: 320px;
+$minitablet-width: 600px;
+$tablet-width: 768px;
+$desktop-width: 1025px;
+$larger-width: 1200px;
+
+@mixin iphone {
+  @media (min-width: #{$iphone-width}) and (max-width: #{$minitablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin minitablet {
+  @media (min-width: #{$minitablet-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) and (max-width: #{$larger-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin larger {
+  @media (min-width: #{$larger-width}) {
+    @content;
+  }
+}
+
+/*
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+*/

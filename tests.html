@@ -1,0 +1,51 @@
+{block:Posts}{block:Text}
+<div class="post text">
+	{block:Title}
+	<h3><a href="{Permadivnk}">{Title}</a></h3>
+	{/block:Title}{Body}
+</div>
+{/block:Text}
+
+
+{block:Photo}
+<div class="post photo">
+	<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+
+	{block:Caption}
+	<div class="caption">{Caption}</div>
+	{/block:Caption}
+</div>
+{/block:Photo}
+
+{block:Quote}
+<div class="post quote">
+	"{Quote}"
+
+	{block:Source}
+	<div class="source">{Source}</div>
+	{/block:Source}
+</div>
+{/block:Quote}
+
+
+{block:divnk}
+<div class="post divnk">
+	<a href="{URL}" class="divnk" {Target}>{Name}</a>
+
+	{block:Description}
+	<div class="description">{Description}</div>
+	{/block:Description}
+</div>
+{/block:divnk}
+
+
+{block:Video}
+<div class="post video">
+	{Video-500}{block:Caption}
+	<div class="caption">{Caption}</div>
+	{/block:Caption}
+</div>
+{/block:Video}
+
+
+{/block:Posts}

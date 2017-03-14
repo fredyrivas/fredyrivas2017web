@@ -1,0 +1,347 @@
+
+body {
+
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+.preloader-site{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: white;
+}
+
+.preload-container{
+  display: none;
+}
+
+.main-wrapper{
+  height: 100%;
+}
+
+.elements-color{
+  color: #fff;
+}
+
+
+.photo-container-projects{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.photo-item{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.slick-track, .slick-list{
+  height: 100%;
+}
+
+.photo-container-intro{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.div-preloader{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #eeeeee;
+}
+
+.is-loading{
+  @include absolute-center;
+}
+
+
+.mobile-margin-home{
+  width: 100%;
+  height: 106px;
+  display: none;
+}
+
+.welcome-info-text{
+
+  position: fixed;
+  top: 20px;
+  left: 28px;
+
+  h1{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: 900;
+    word-spacing: -5px;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: "Times New Roman";
+    font-size: 13px;
+    font-weight: 100;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .close-menu{
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .navigation-panel{
+
+    margin-top: 50px;
+    p{
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .navigation-arrows{
+
+      img{
+        width: 13px;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+
+.main-menu{
+  position: absolute;
+  top: 66px;
+  left: 54px;
+
+  ul li{
+    font-family: "Times New Roman";
+    color: #000;
+    font-size: 10px;
+    list-style: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  ul li a{
+    color: #000;
+  }
+}
+
+.frame-a{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  background-color: white;
+}
+
+.frame-b{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 18px;
+  height: 100%;
+  background-color: white;
+}
+
+.frame-c{
+  position: fixed;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  background-color: white;
+}
+
+.frame-d{
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 18px;
+  height: 100%;
+  background-color: white;
+}
+
+.reveal-photo{
+  cursor: pointer;
+}
+
+.about{
+
+}
+
+.ilusiones-mobile{
+  display: none;
+  padding: 30px 0;
+}
+
+
+.div-preloader{
+  pointer-events: none;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  color: #414141;
+}
+
+.about-text{
+  font-family: "Times New Roman";
+  color: #000;
+  font-size: 12px;
+}
+
+.reveal-photo{
+
+}
+
+.email{
+  padding-bottom: 40px !important;
+}
+
+.project-description{
+  padding-top: 30px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  width: 160px !important;
+  text-align: justify !important;
+}
+
+
+.fredy-logo{
+  cursor: pointer;
+
+}
+
+
+#mailusuario{
+  height: 1.6rem;
+  font-size: .8rem;
+  width: 100%;
+  max-width: 250px;
+}
+
+#enviamail{
+
+}
+
+.clase{
+
+}
+
+
+$green: #ffffff;
+$blue: #f3f3f3;
+$red: #ffffff;
+$yellow: #F3F3F3;
+$white: #ffffff;
+
+// scaling... any units
+$width: 100px;
+
+
+
+// demo-specific
+.showbox {
+  @include absolute-center;
+}
+// end demo-specific
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: $width;
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: $red;
+  }
+  40% {
+    stroke: $blue;
+  }
+  66% {
+    stroke: $green;
+  }
+  80%,
+  90% {
+    stroke: $yellow;
+  }
+}

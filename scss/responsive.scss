@@ -1,0 +1,131 @@
+/*IPHONE-----------------------------------------------------------------------------------------------*/
+
+@mixin moviles (){
+
+
+  .navigation-panel{
+    position: absolute;
+  }
+
+  .photo-container-intro{
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+  }
+
+  .photo-item{
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .photo-container-projects{
+    top:106px;
+    height: auto;
+  }
+
+  .welcome-info-text{
+    background-color: #fff;
+    left: 18px;
+    width: 100%;
+    top:18px;
+
+    p{
+      margin-bottom: 0;
+    }
+
+    .close-menu{
+      width: 15px;
+    }
+
+    .navigation-panel{
+      margin-top: 0;
+      top:63px;
+      p{
+        font-size: 10px;
+      }
+      .navigation-arrows{
+        display: none;
+      }
+    }
+  }
+
+
+  .is-loading{
+    top: 30%;
+    position: fixed;
+  }
+
+  .elements-color{
+    color: #000;
+  }
+
+  .main-menu{
+    top: 107px;
+    left: -1px;
+    position: fixed;
+
+    ul li{
+      font-family: "Times New Roman";
+      color: #000;
+      font-size: 10px;
+      list-style: none;
+      font-weight: bold;
+      background-color: white;
+      padding: 8px 20px;
+      margin-bottom: 1px;
+      width: 240px;
+    }
+
+  }
+
+  .about-text, .contactform{
+    padding: 0 20px;
+  }
+
+
+  .ilusiones-mobile{
+    display: block;
+  }
+
+  .ilusiones-desktop{
+    display: none;
+  }
+
+}
+
+
+
+@include iphone {
+  @include moviles ();
+}
+
+/*MINI TABLET-----------------------------------------------------------------------------------------------*/
+@include minitablet {
+  @include moviles ();
+}
+
+/*TABLET-----------------------------------------------------------------------------------------------*/
+@include tablet {
+  .instrudef{
+    font-size: .8rem !important;
+  }
+}
+
+/*DESKTOP-----------------------------------------------------------------------------------------------*/
+@include desktop {
+
+
+}
+
+/*LARGER-----------------------------------------------------------------------------------------------*/
+@include larger {
+
+}
+
+
+

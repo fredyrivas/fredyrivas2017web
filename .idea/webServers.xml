@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2c712792-0197-43ba-bc1b-b8b968e7f2b8" name="fredyrivas.com" url="http://ftp.fredyrivas.com">
+        <fileTransfer host="ftp.fredyrivas.com" port="21" rootFolder="/public_html" password="dfecdfeedf93dfdedfe7dfcbdf9cdfccdfefdfeddfc7df9cdf92dfcf" username="frivas01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
